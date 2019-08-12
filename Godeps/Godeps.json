@@ -1,0 +1,17 @@
+{
+	"ImportPath": "backendDsc",
+	"GoVersion": "go1.12",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/handlers",
+			"Comment": "v1.4.2",
+			"Rev": "8a3748addc242fc560bd6d4ff28b0374c010b1b4"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.7.3-5-ge67b3c0",
+			"Rev": "e67b3c02c7195c052acff13261f0c9fd1ba53011"
+		}
+	]
+}
