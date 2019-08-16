@@ -39,4 +39,10 @@ var routes = Routes{
         "/members/{id}",
         handlers.GetMember,
     },
+    Route{
+        "Get Events",
+        "GET",
+        "/events",
+        handlers.GetEvents,
+    },
 }
