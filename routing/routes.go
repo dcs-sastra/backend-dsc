@@ -45,4 +45,10 @@ var routes = Routes{
         "/events",
         handlers.GetEvents,
     },
+    Route{
+        "Submit Form Data",
+        "POST",
+        "/contact",
+        handlers.PostContact,
+    },
 }

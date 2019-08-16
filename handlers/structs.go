@@ -21,7 +21,7 @@ type Event struct{
 }
 
 type Contact struct{
-    Email string
-    Phone string
-    Message string
+    Email string `json: email`
+    Phone string `json: phone`
+    Message string `json: message`
 }
