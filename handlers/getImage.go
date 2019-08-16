@@ -19,6 +19,6 @@ func GetImage(w http.ResponseWriter, r *http.Request)  {
         fmt.Println(err)
     }
     defer f.Close()
-    w.Header().Set("Content-type","image/jpeg") // similar to this
+    w.Header().Set("Content-type","image/jpeg")
     io.Copy(w,f)
 }

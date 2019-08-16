@@ -10,4 +10,18 @@ type Member struct{
     Team string
     Name string
     Branch string
+    Links string
+}
+
+type Event struct{
+    Name string
+    Desc string
+    Speakers string
+    Date string
+}
+
+type Contact struct{
+    Email string
+    Phone string
+    Message string
 }
