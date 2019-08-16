@@ -22,12 +22,6 @@ var routes = Routes{
         handlers.Index,
     },
     Route{
-        "Get Images",
-        "GET",
-        "/images",
-        handlers.GetImages,
-    },
-    Route{
         "Get Image by ID",
         "GET",
         "/images/{id}",
